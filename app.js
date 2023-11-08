@@ -1,14 +1,18 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var morgan = require('morgan');
+const createError = require('http-errors');
+const express = require('express');
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const morgan = require('morgan');
+const mongoose = require('mongoose');
+const settings = require('./settings');
 
-var indexRouter = require('./routes/index');
+const mongodbUrl = settings.dbUrl + '/' + settings.dbName;
+connectToMongo(mongodbUrl);
 
-var app = express();
+const indexRouter = require('./routes/index');
 
-// view engine setup
+const app = express();
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
@@ -37,3 +41,12 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+async function connectToMongo(url) {
+  try {
+    await mongoose.connect(url);
+    console.log(`Connected to db: ${url}`)
+  } catch (err) {
+    console.error(err);
+  }
+}
