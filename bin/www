@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+const settings = require('../settings');
+
 /**
  * Module dependencies.
  */
@@ -12,7 +14,7 @@ var http = require('http');
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || settings.port.toString());
 app.set('port', port);
 
 /**
