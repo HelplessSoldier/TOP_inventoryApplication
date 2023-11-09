@@ -21,74 +21,74 @@
     "numInStock": "1"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Camillo RAM Manager",
+    "description": "Regain RAM capacity by +20% when hitting <15%",
+    "category": "Frontal Cortex",
+    "price": "2400",
+    "numInStock": "12"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Ex-Disk",
+    "description": "Increase max RAM",
+    "category": "Frontal Cortex",
+    "price": "1200",
+    "numInStock": "21"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Kerenzikov Boost System",
+    "description": "Improves user speed and reflexes",
+    "category": "Frontal Cortex",
+    "price": "2100",
+    "numInStock": "5"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Mechatronic Core",
+    "description": "Improved damage against machines",
+    "category": "Frontal Cortex",
+    "price": "2800",
+    "numInStock": "17"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Memory Boost",
+    "description": "Gain ram when neutralizing an enemy",
+    "category": "Frontal Cortex",
+    "price": "1100",
+    "numInStock": "9"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Newton Module",
+    "description": "Improved cooldown after neutralizing an enemy",
+    "category": "Frontal Cortex",
+    "price": "1900",
+    "numInStock": "23"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Quantum Tuner",
+    "description": "Instantly recovers another used up Cyberware",
+    "category": "Frontal Cortex",
+    "price": "3500",
+    "numInStock": "3"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "RAM Reallocator",
+    "description": "Instantly recover 20% RAM when reaching <15%",
+    "category": "Frontal Cortex",
+    "price": "1250",
+    "numInStock": "3"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "RAM Upgrade",
+    "description": "Increases RAM recovery rate",
+    "category": "Frontal Cortex",
+    "price": "1100",
+    "numInStock": "28"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Self-ICE",
+    "description": "Automatically negates a quickhack attempt",
+    "category": "Frontal Cortex",
+    "price": "2200",
+    "numInStock": "17"
   },
   {
     "name": "",
