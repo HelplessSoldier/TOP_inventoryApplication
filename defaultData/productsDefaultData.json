@@ -294,81 +294,81 @@
     "numInStock": "1"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Bionic Joints",
+    "description": "Improves armour",
+    "category": "Skeleton",
+    "price": "1200",
+    "numInStock": "23"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Dense Marrow",
+    "description": "Increased melee damage",
+    "category": "Skeleton",
+    "price": "2000",
+    "numInStock": "43"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Epimorphic Skeleton",
+    "description": "Increased max health",
+    "category": "Skeleton",
+    "price": "2130",
+    "numInStock": "4"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Kinetic Frame",
+    "description": "Increased mitigation chance when ample stamina",
+    "category": "Skeleton",
+    "price": "2400",
+    "numInStock": "4"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Para Bellum",
+    "description": "Improved armour",
+    "category": "Skeleton",
+    "price": "3000",
+    "numInStock": "7"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "RAM Recoup",
+    "description": "Regain RAM on receiving damage",
+    "category": "Skeleton",
+    "price": "1200",
+    "numInStock": "1"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Rara Avis",
+    "description": "Improved armour",
+    "category": "Skeleton",
+    "price": "3000",
+    "numInStock": "10"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Scar Coalescer",
+    "description": "Improved armour when damaged",
+    "category": "Skeleton",
+    "price": "2800",
+    "numInStock": "4"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Scarab",
+    "description": "Improved armour and movement speed while sneaking",
+    "category": "Skeleton",
+    "price": "2000",
+    "numInStock": "23"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Spring Joints",
+    "description": "Improves mitigation",
+    "category": "Skeleton",
+    "price": "1200",
+    "numInStock": "30"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Universal Booster",
+    "description": "Meds now also give improved armour and stamina",
+    "category": "Skeleton",
+    "price": "1200",
+    "numInStock": "2"
   },
   {
     "name": "",
