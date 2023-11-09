@@ -413,6 +413,83 @@
     "numInStock": "28"
   },
   {
+    "name": "Adrenaline Converter",
+    "description": "Higher movement speed at the start of combat",
+    "category": "Nervous System",
+    "price": "1300",
+    "numInStock": "12"
+  },
+  {
+    "name": "Adreno-trigger",
+    "description": "Higher movement speed at the start of combat",
+    "category": "Nervous System",
+    "price": "1400",
+    "numInStock": "5"
+  },
+  {
+    "name": "Atomic Sensors",
+    "description": "Higher movement speed while emenies start noticing you, ends when entering combat",
+    "category": "Nervous System",
+    "price": "2000",
+    "numInStock": "8"
+  },
+  {
+    "name": "Deep-field Visual Interface",
+    "description": "Crit chance proportionally higher with enemy distance",
+    "category": "Nervous System",
+    "price": "2400",
+    "numInStock": "2"
+  },
+  {
+    "name": "Kerenzikov",
+    "description": "Allows aiming while sliding or dodging",
+    "category": "Nervous System",
+    "price": "2000",
+    "numInStock": "7"
+  },
+  {
+    "name": "NeoFiber",
+    "description": "Improved mitigation chance",
+    "category": "Nervous System",
+    "price": "1500",
+    "numInStock": "21"
+  },
+  {
+    "name": "Reflex Tuner",
+    "description": "Slows time when low health",
+    "category": "Nervous System",
+    "price": "3000",
+    "numInStock": "16"
+  },
+  {
+    "name": "Revulsor",
+    "description": "Slows time when low health",
+    "category": "Nervous System",
+    "price": "3500",
+    "numInStock": "12"
+  },
+  {
+    "name": "Stabber",
+    "description": "Imcreased crit chance with blades",
+    "category": "Nervous System",
+    "price": "1200",
+    "numInStock": "23"
+  },
+  {
+    "name": "Synaptic Accelerator",
+    "description": "Slows time upon enemy detection",
+    "category": "Nervous System",
+    "price": "2400",
+    "numInStock": "9"
+  },
+  {
+    "name": "Visual Cortex Support",
+    "description": "Crit chance proportionally higher with enemy distance",
+    "category": "Nervous System",
+    "price": "1500",
+    "numInStock": "43"
+  },
+  {
     "name": "",
     "description": "",
     "category": "",
