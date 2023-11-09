@@ -561,7 +561,7 @@
   },
   {
     "name": "Second Heart",
-    "description": "Fully recover health when otherwise lethal damage is taked",
+    "description": "Fully recover health when otherwise lethal damage is taken",
     "category": "Circulatory System",
     "price": "34500",
     "numInStock": "1"
@@ -574,101 +574,129 @@
     "numInStock": "4"
   },
   {
-    "name": "",
-    "description": "",
+    "name": "Carapace",
+    "description": "Higher side and rear armour effectiveness",
     "category": "Integumentary System",
-    "price": "",
-    "numInStock": ""
+    "price": "2100",
+    "numInStock": "15"
   },
   {
-    "name": "",
-    "description": "",
+    "name": "Chitin",
+    "description": "Improved health regen",
     "category": "Integumentary System",
-    "price": "",
-    "numInStock": ""
+    "price": "3200",
+    "numInStock": "3"
   },
   {
-    "name": "",
-    "description": "",
+    "name": "Countershell",
+    "description": "Improved mitigation chance if taking heavy damage",
     "category": "Integumentary System",
-    "price": "",
-    "numInStock": ""
+    "price": "1400",
+    "numInStock": "39"
   },
   {
-    "name": "",
-    "description": "",
+    "name": "Defenzikov",
+    "description": "Significant mitigation change after Kerenzikov ends",
     "category": "Integumentary System",
-    "price": "",
-    "numInStock": ""
+    "price": "3300",
+    "numInStock": "4"
   },
   {
-    "name": "",
-    "description": "",
+    "name": "Nano-plating",
+    "description": "Chance to block an incoming projectile, goes to 100% for the first hit after dodging",
     "category": "Integumentary System",
-    "price": "",
-    "numInStock": ""
+    "price": "2100",
+    "numInStock": "54"
   },
   {
-    "name": "",
-    "description": "",
+    "name": "Optical Camo",
+    "description": "Improves stealth",
     "category": "Integumentary System",
-    "price": "",
-    "numInStock": ""
+    "price": "2700",
+    "numInStock": "39"
   },
   {
-    "name": "",
-    "description": "",
+    "name": "Pain Editor",
+    "description": "Lowers all incoming damage",
     "category": "Integumentary System",
-    "price": "",
-    "numInStock": ""
+    "price": "4000",
+    "numInStock": "7"
   },
   {
-    "name": "",
-    "description": "",
+    "name": "Painducer",
+    "description": "Converts some damage taken into damage over time",
     "category": "Integumentary System",
-    "price": "",
-    "numInStock": ""
+    "price": "3500",
+    "numInStock": "3"
   },
   {
-    "name": "",
-    "description": "",
+    "name": "Peripheral Inverse",
+    "description": "Damage taken is inversly proportional to how close the user is to an attacking enemy",
     "category": "Integumentary System",
-    "price": "",
-    "numInStock": ""
+    "price": "4300",
+    "numInStock": "5"
   },
   {
-    "name": "",
-    "description": "",
+    "name": "ProxiSheild",
+    "description": "Damage taken is inversly proportional to how close the user is to an attacking enemy",
     "category": "Integumentary System",
-    "price": "",
-    "numInStock": ""
+    "price": "4500",
+    "numInStock": "17"
   },
   {
-    "name": "",
-    "description": "",
+    "name": "RangeGuard",
+    "description": "Improved armour when no near enemies",
     "category": "Integumentary System",
-    "price": "",
-    "numInStock": ""
+    "price": "1100",
+    "numInStock": "48"
   },
   {
-    "name": "",
-    "description": "",
+    "name": "Shock-n-Awe",
+    "description": "Chance to shock near enemies when damaged",
     "category": "Integumentary System",
-    "price": "",
-    "numInStock": ""
+    "price": "1100",
+    "numInStock": "29"
   },
   {
-    "name": "",
-    "description": "",
+    "name": "Subdermal Armor",
+    "description": "Simple armour",
     "category": "Integumentary System",
-    "price": "",
-    "numInStock": ""
+    "price": "800",
+    "numInStock": "97"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "Integumentary System",
-    "price": "",
-    "numInStock": ""
+    "name": "Fortified Ankles",
+    "description": "Allows for longjumping after chargeup",
+    "category": "Legs",
+    "price": "2100",
+    "numInStock": "54"
   },
+  {
+    "name": "Jenkins' Tendons",
+    "description": "Higher sprint speed",
+    "category": "Legs",
+    "price": "2400",
+    "numInStock": "0"
+  },
+  {
+    "name": "Leeroy Ligament System",
+    "description": "Higher base movement speed",
+    "category": "Legs",
+    "price": "3000",
+    "numInStock": "0"
+  },
+  {
+    "name": "Lynx Paws",
+    "description": "Quieter movement and higher sneak movement speed",
+    "category": "Legs",
+    "price": "2700",
+    "numInStock": "3"
+  },
+  {
+    "name": "Reinforced Tendons",
+    "description": "Allows for double jumping",
+    "category": "Legs",
+    "price": "4000",
+    "numInStock": "4"
+  }
 ]
