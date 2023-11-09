@@ -1,7 +1,9 @@
 const settings = require('../settings.json');
 const mongoose = require('mongoose');
 const categories = require('./categoriesDefaultData.json');
+const Category = require('../models/category');
 const products = require('./productsDefaultData.json');
+const Product = require('../models/product');
 
 function main() {
   console.log('This should populate the database with fields from the default data json')
