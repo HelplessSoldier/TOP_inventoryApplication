@@ -238,60 +238,60 @@
     "numInStock": "2"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Basic Kiroshi Optics",
+    "description": "Optical zoom and lower camera detection",
+    "category": "Face",
+    "price": "1200",
+    "numInStock": "30"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Behavioral imprint-synced Faceplate",
+    "description": "Active disguise for the physical and digital world",
+    "category": "Face",
+    "price": "9800",
+    "numInStock": "1"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Kiroshi Clairvoyant Optics",
+    "description": "Highlights enemies. Variable optical zoom",
+    "category": "Face",
+    "price": "2300",
+    "numInStock": "5"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Kiroshi Cockatrice Optics",
+    "description": "Increased crit chance, and 10x optical zoom",
+    "category": "Face",
+    "price": "2000",
+    "numInStock": "12"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Kiroshi Doomslayer Optics",
+    "description": "Highlights explosive devices and traps. Variable optical zoom",
+    "category": "Face",
+    "price": "1700",
+    "numInStock": "14"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Kiroshi Sentry Optics",
+    "description": "Highlights cameras and turrets. Variable optical zoom",
+    "category": "Face",
+    "price": "2000",
+    "numInStock": "2"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Kiroshi Stalker Optics",
+    "description": "Automatically connects to smart weapons. Variable optical zoom",
+    "category": "Face",
+    "price": "2500",
+    "numInStock": "12"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Kiroshi The Oracle Optics",
+    "description": "Highlights enemies, cameras, turrets, explosives, and traps. Variable optical zoom",
+    "category": "Face",
+    "price": "12400",
+    "numInStock": "1"
   },
   {
     "name": "",
