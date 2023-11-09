@@ -490,9 +490,184 @@
     "numInStock": "43"
   },
   {
+    "name": "Adrenaline Booster",
+    "description": "Stamina boost upon dispatching an enemy with a melee weapon",
+    "category": "Circulatory System",
+    "price": "1000",
+    "numInStock": "43"
+  },
+  {
+    "name": "Biomonitor",
+    "description": "Automatic medical item use upon low health",
+    "category": "Circulatory System",
+    "price": "1300",
+    "numInStock": "56"
+  },
+  {
+    "name": "Black Mamba",
+    "description": "Improved poison damage",
+    "category": "Circulatory System",
+    "price": "2000",
+    "numInStock": "12"
+  },
+  {
+    "name": "Blood Pump",
+    "description": "Instantly recover health when used",
+    "category": "Circulatory System",
+    "price": "2100",
+    "numInStock": "19"
+  },
+  {
+    "name": "Clutch Padding",
+    "description": "Lower stamina cost for shooting",
+    "category": "Circulatory System",
+    "price": "1400",
+    "numInStock": "32"
+  },
+  {
+    "name": "Electromag Recycler",
+    "description": "Recover health and stamina when hitting an enemy with a fully charged tech weapon",
+    "category": "Circulatory System",
+    "price": "2300",
+    "numInStock": "8"
+  },
+  {
+    "name": "Feedback Circuit",
+    "description": "Recover health when hitting an enemy with a fully charged tech weapon",
+    "category": "Circulatory System",
+    "price": "1800",
+    "numInStock": "23"
+  },
+  {
+    "name": "Heal-On-Kill",
+    "description": "Heals on kill",
+    "category": "Circulatory System",
+    "price": "1200",
+    "numInStock": "78"
+  },
+  {
+    "name": "Isometric Stablizer",
+    "description": "Lower stamina cost for all attacks",
+    "category": "Circulatory System",
+    "price": "2300",
+    "numInStock": "7"
+  },
+  {
+    "name": "Microrotors",
+    "description": "Faster melee attack speed",
+    "category": "Circulatory System",
+    "price": "1300",
+    "numInStock": "12"
+  },
+  {
+    "name": "Second Heart",
+    "description": "Fully recover health when otherwise lethal damage is taked",
+    "category": "Circulatory System",
+    "price": "34500",
+    "numInStock": "1"
+  },
+  {
+    "name": "ThreatEvac",
+    "description": "Improved movement speed when low health",
+    "category": "Circulatory System",
+    "price": "3400",
+    "numInStock": "4"
+  },
+  {
     "name": "",
     "description": "",
-    "category": "",
+    "category": "Integumentary System",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "Integumentary System",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "Integumentary System",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "Integumentary System",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "Integumentary System",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "Integumentary System",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "Integumentary System",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "Integumentary System",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "Integumentary System",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "Integumentary System",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "Integumentary System",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "Integumentary System",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "Integumentary System",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "Integumentary System",
     "price": "",
     "numInStock": ""
   },
