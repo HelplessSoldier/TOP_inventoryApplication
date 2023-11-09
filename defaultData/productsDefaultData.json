@@ -91,6 +91,153 @@
     "numInStock": "17"
   },
   {
+    "name": "Chrome Compressor",
+    "description": "Increase Cyberware capacity",
+    "category": "Operating System",
+    "price": "1200",
+    "numInStock": "10"
+  },
+  {
+    "name": "BioDyne Berserk",
+    "description": "Improves physical capability at the cost of only being able to use melee weapons",
+    "category": "Operating System",
+    "price": "2000",
+    "numInStock": "12"
+  },
+  {
+    "name": "Millitech Berserk",
+    "description": "Improves physical capability at the cost of only being able to use melee weapons",
+    "category": "Operating System",
+    "price": "2300",
+    "numInStock": "11"
+  },
+  {
+    "name": "Moore Tech Berserk",
+    "description": "Improves physical capability at the cost of only being able to use melee weapons",
+    "category": "Operating System",
+    "price": "2500",
+    "numInStock": "1"
+  },
+  {
+    "name": "Zetatech Berserk",
+    "description": "Improves physical capability at the cost of only being able to use melee weapons",
+    "category": "Operating System",
+    "price": "2700",
+    "numInStock": "9"
+  },
+  {
+    "name": "Arasaka Shadow",
+    "description": "Various combat improvements",
+    "category": "Operating System",
+    "price": "1200",
+    "numInStock": "45"
+  },
+  {
+    "name": "Biotech Σ",
+    "description": "Various combat improvements",
+    "category": "Operating System",
+    "price": "1300",
+    "numInStock": "35"
+  },
+  {
+    "name": "Millitech Canto",
+    "description": "Various combat improvements",
+    "category": "Operating System",
+    "price": "1400",
+    "numInStock": "10"
+  },
+  {
+    "name": "Millitech Paraline",
+    "description": "Various quickhack improvements",
+    "category": "Operating System",
+    "price": "1300",
+    "numInStock": "20"
+  },
+  {
+    "name": "NetWatch Netdriver",
+    "description": "Various quickhack improvements",
+    "category": "Operating System",
+    "price": "1500",
+    "numInStock": "4"
+  },
+  {
+    "name": "Raven Microcyber",
+    "description": "Various quickhack improvements",
+    "category": "Operating System",
+    "price": "1800",
+    "numInStock": "0"
+  },
+  {
+    "name": "Tetratronic Rippler",
+    "description": "Various quickhack improvements",
+    "category": "Operating System",
+    "price": "2000",
+    "numInStock": "3"
+  },
+  {
+    "name": "Dynalar Sandevistan",
+    "description": "Slows time by 50%",
+    "category": "Operating System",
+    "price": "3400",
+    "numInStock": "2"
+  },
+  {
+    "name": "Millitech Apogee Sandevistan",
+    "description": "Slows time by 70%",
+    "category": "Operating System",
+    "price": "5000",
+    "numInStock": "1"
+  },
+  {
+    "name": "Millitech Falcon Sandevistan",
+    "description": "Slows time by 70%",
+    "category": "Operating System",
+    "price": "5000",
+    "numInStock": "2"
+  },
+  {
+    "name": "Qiant Warp Dancer Sandevistan",
+    "description": "Slows time by 20%",
+    "category": "Operating System",
+    "price": "2400",
+    "numInStock": "12"
+  },
+  {
+    "name": "Zetatech Sandevistan",
+    "description": "Slows time by 30%",
+    "category": "Operating System",
+    "price": "2700",
+    "numInStock": "5"
+  },
+  {
+    "name": "Electrifying Gorrilla Arms",
+    "description": "Hard hitting arm replacements, deals electical damage",
+    "category": "Arms",
+    "price": "2100",
+    "numInStock": "3"
+  },
+  {
+    "name": "Gorrilla Arms",
+    "description": "Hard hitting arm replacements",
+    "category": "Arms",
+    "price": "1800",
+    "numInStock": "10"
+  },
+  {
+    "name": "Thermal Gorrilla Arms",
+    "description": "Hard hitting arm replacements, deals thermal damage",
+    "category": "Arms",
+    "price": "3000",
+    "numInStock": "13"
+  },
+  {
+    "name": "Toxic Gorrilla Arms",
+    "description": "Hard hitting arm replacements, deals chemical damage",
+    "category": "Arms",
+    "price": "4000",
+    "numInStock": "2"
+  },
+  {
     "name": "",
     "description": "",
     "category": "",
@@ -103,5 +250,166 @@
     "category": "",
     "price": "",
     "numInStock": ""
-  }
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
 ]
