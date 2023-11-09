@@ -5,14 +5,18 @@ const Category = require('../models/category');
 const products = require('./productsDefaultData.json');
 const Product = require('../models/product');
 
+main().catch((err) => { console.error(err) });
+
 async function main() {
   console.log('This should populate the database with fields from the default data json')
   const dbUrl = settings.dbUrl + '/' + settings.dbName;
-  console.log('attempting to connect to mongo db')
+  console.log('attempting to connect to mongo db');
   connectToMongo(dbUrl);
-  console.log('adding data')
+  console.log('adding data');
   await createCategories();
   await createProducts();
+  console.log(`debug: Closing mongoose`);
+  mongoose.connection.close();
 }
 
 async function connectToMongo(url) {

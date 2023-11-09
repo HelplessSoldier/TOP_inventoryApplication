@@ -14,4 +14,4 @@ ProductSchema.virtual('url').get(function() {
   return `/stock/product/${this._id}`;
 })
 
-module.exports = mongoose.models('Product', ProductSchema);
+module.exports = mongoose.model('Product', ProductSchema);
