@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Axolotl",
+    "description": "Reduces Cyberware cooldown",
+    "category": "Frontal Cortex",
+    "price": "1200",
+    "numInStock": "8"
+  },
+  {
+    "name": "Bioconductor",
+    "description": "Allows quickhacks to crit",
+    "category": "Frontal Cortex",
+    "price": "2100",
+    "numInStock": "3"
+  },
+  {
+    "name": "COX-2 Cybersomatic Optimizer",
+    "description": "Allows quickhacks to crit",
+    "category": "Frontal Cortex",
+    "price": "3400",
+    "numInStock": "1"
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  },
+  {
+    "name": "",
+    "description": "",
+    "category": "",
+    "price": "",
+    "numInStock": ""
+  }
+]
