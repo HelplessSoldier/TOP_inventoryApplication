@@ -371,39 +371,46 @@
     "numInStock": "2"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Ballistic Coprocessor",
+    "description": "Increased ricochet chance with power weapons",
+    "category": "Hands",
+    "price": "1100",
+    "numInStock": "31"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Handle Wrap",
+    "description": "Higher crit chance with thrown weapons",
+    "category": "Hands",
+    "price": "1400",
+    "numInStock": "34"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Immovable Force",
+    "description": "Handles recoil and spread",
+    "category": "Hands",
+    "price": "2000",
+    "numInStock": "12"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Micro Generator",
+    "description": "First shot of a fresh magazine deals electical damage",
+    "category": "Hands",
+    "price": "2300",
+    "numInStock": "10"
   },
   {
-    "name": "",
-    "description": "",
-    "category": "",
-    "price": "",
-    "numInStock": ""
+    "name": "Shock Absorber",
+    "description": "Lowers recoil",
+    "category": "Hands",
+    "price": "1600",
+    "numInStock": "43"
+  },
+  {
+    "name": "Smart Link",
+    "description": "Allows for smart targeting with smart weapons",
+    "category": "Hands",
+    "price": "3000",
+    "numInStock": "28"
   },
   {
     "name": "",
