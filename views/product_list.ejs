@@ -3,7 +3,7 @@
   <%- include('./partials/header.ejs')%>
   <body>
     <div class="productListRoot">
-      <h1 class="productListHeader">ALL PRODUCTS</h1>
+      <h1 class="productListHeader"><%- title %></h1>
       <div class="productListContainer">
         <% for (const product of allProducts) { %>
           <a class="productListItem" href=<%- product.url %>>

@@ -6,7 +6,7 @@ const { body, validationResult } = require('express-validator');
 exports.products_in_category = asyncHandler(async (req, res, next) => {
   const categoryName = req.params.name;
   const allProductsInCategory = await Product.find({ category: categoryName })
-  res.render('products_in_category', { products_list: allProductsInCategory, title: req.params.name })
+  res.render('product_list', { allProducts: allProductsInCategory, title: req.params.name })
 })
 
 exports.product_detail = asyncHandler(async (req, res, next) => {
@@ -17,5 +17,5 @@ exports.product_detail = asyncHandler(async (req, res, next) => {
 
 exports.product_list = asyncHandler(async (req, res, next) => {
   const allProducts = await Product.find();
-  res.render('product_list', { allProducts });
+  res.render('product_list', { allProducts, title: "ALL PRODUCTS" });
 })
