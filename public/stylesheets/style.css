@@ -1,13 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+
+:root {
+  --background: #090502;
+  --faint-border: #436259;
+  --strong-border: #87afa6;
+  --text-color: #87afa6;
+}
+
 * {
-  background-color: black;
-  color: white;
+  background-color: var(--background);
+  color: var(--text-color);
+  font-family: Rajdhani;
 }
 
 body {
-  padding: 50px;
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
 }
+
+/* INDEX/LANDING STYLING */
+.landingContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.landingHeader {
+  font-size: 6vh;
+}
+
+.tabsContainer {
+  border: 2px solid var(--faint-border);
+  min-width: 64vh;
+  max-height: 55vh;
+  display: flex;
+  flex: 1;
+  justify-self: center;
+  align-self: center;
+}
+
+.tabRight,
+.tabLeft {
+  border: 1px solid var(--strong-border);
+  flex-grow: 1;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 5vh;
+}
+
+.tabLeft {
+  margin-left: 6vw;
+  margin-right:1vw;
+}
+
+.tabRight {
+  margin-left: 1vw;
+  margin-right:6vw;
+}
+
+

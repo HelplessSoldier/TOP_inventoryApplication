@@ -2,10 +2,12 @@
 <html>
   <%- include('./partials/header.ejs')%>
   <body>
-    <h1>CYBERWARE INVENTORY</h1>
-    <nav>
-      <a href="/stock/categories" class='tabs'>Categories</a>
-      <a href="/stock/products" class='tabs'>All Products</a>
-    </nav>
+    <div class="landingContainer">
+      <h1 class="landingHeader">CYBERWARE INVENTORY</h1>
+      <nav class="tabsContainer">
+        <a href="/stock/categories" class='tabLeft'>Categories</a>
+        <a href="/stock/products" class='tabRight'>All Products</a>
+      </nav>
+    </div>
   </body>
 </html>
