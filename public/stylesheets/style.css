@@ -150,6 +150,7 @@ a {
 } 
 
 /* CATEGORIES */
+
 .categoryRoot {
   display: flex;
   flex-direction: column;
@@ -158,6 +159,7 @@ a {
 }
 
 .categoryListHeader {
+  margin-top: 21vh;
   text-align: center;
   font-size: 5vh;
 }
@@ -169,7 +171,7 @@ a {
   display: flex;
   flex-direction: column;
   min-width: 55vw;
-  height: 70vh;
+  height: 55vh;
   overflow: scroll;
 }
 
