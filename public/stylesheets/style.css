@@ -26,7 +26,7 @@ a {
   color: #00B7FF;
 }
 
-/* INDEX/LANDING STYLING */
+/* INDEX/LANDING */
 
 .landingContainer {
   display: flex;
@@ -85,4 +85,68 @@ a {
 .tabLeft:hover {
   background-color: var(--hover-highlights);
 }
+
+/* PRODUCT LIST */
+
+.productListRoot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.productListHeader {
+  text-align: center;
+  font-size: 5vh;
+}
+
+.productListContainer {
+  border: 2px solid var(--faint-border);
+  border-radius: 5px;
+  box-shadow: 0 0 10px var(--faint-border);
+  min-width: 55vw;
+  height: 55vh;
+  overflow: scroll;
+}
+
+.productListItem {
+  border: 3px solid var(--strong-border);
+  border-radius: 5px;
+  box-shadow: 0 0 10px var(--strong-border);
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  padding: 2vh;
+  max-height: 4vh;
+}
+
+.productListItem:hover {
+  background-color: var(--hover-highlights);
+}
+
+.productListItem > * {
+  text-decoration: none;
+  font-size: 3vh;
+  background-color: transparent;
+}
+
+.productListItemPriceAndQtyContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2vh;
+  max-height: 3vh;
+  align-items: center;
+  background-color: transparent;
+}
+
+.productListItemPriceAndQtyContainer > * {
+  background-color: transparent;
+} 
+
 

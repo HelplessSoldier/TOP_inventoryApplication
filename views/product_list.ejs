@@ -2,15 +2,19 @@
 <html>
   <%- include('./partials/header.ejs')%>
   <body>
-    <h1>ALL PRODUCTS</h1>
-    <% for (const product of allProducts) { %>
-      <div class="productListItem">
-        <a href=<%- product.url %>><h2><%- product.name %></h2></a>
-        <div class="productListItemPriceAndQtyContainer">
-          <p><%- product.price %>§</p>
-          <p>QTY: <%- product.numInStock %></p>
-        </div>
+    <div class="productListRoot">
+      <h1 class="productListHeader">ALL PRODUCTS</h1>
+      <div class="productListContainer">
+        <% for (const product of allProducts) { %>
+          <a class="productListItem" href=<%- product.url %>>
+            <h2><%- product.name %></h2>
+            <div class="productListItemPriceAndQtyContainer">
+              <p><%- product.price %>§</p>
+              <p>QTY: <%- product.numInStock %></p>
+            </div>
+          </a>
+        <% } %>
       </div>
-    <% } %>
+    </div>
   </body>
 </html>
