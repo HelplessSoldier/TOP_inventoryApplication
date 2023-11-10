@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./partials/header.ejs')%>
+  <body>
+    <h1><%- item.name.toUpperCase() %></h1>
+    <p>DESCRIPTION: <%- item.description %></p>
+    <p>CATEGORY: <%- item.category %></p>
+    <p>PRICE: <%- item.price %>§</p>
+    <p>QTY IN STOCK: <%- item.numInStock %></p>
+  </body>
+</html>
