@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./partials/header.ejs')%>
+  <body>
+    <h1>ALL PRODUCTS IN: <%- title.toUpperCase() %></h1>
+    <% for (const product of products_list) { %>
+      <div class="productContainer">
+        <a href=<%- product.url %>><%= product.name %></a>
+      </div>
+    <% } %>
+  </body>
+</html>
