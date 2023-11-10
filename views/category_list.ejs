@@ -2,11 +2,13 @@
 <html>
   <%- include('./partials/header.ejs')%>
   <body>
-    <h1>ALL CATEGORIES</h1>
-    <% for (const category of category_list) { %>
-      <div class="categoryContainer">
-        <a href=<%- category.url %>><%= category.name %></a>
+    <div class="categoryRoot">
+      <h1 class="categoryListHeader">ALL CATEGORIES</h1>
+      <div class="categoryItemsContainer">
+        <% for (const category of category_list) { %>
+          <a class="categoryItem" href=<%- category.url %>><%= category.name %></a>
+        <% } %>
       </div>
-    <% } %>
+    </div>
   </body>
 </html>
