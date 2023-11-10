@@ -14,3 +14,8 @@ exports.product_detail = asyncHandler(async (req, res, next) => {
   const item = await Product.findById(itemId);
   res.render('product_detail', { item });
 })
+
+exports.product_list = asyncHandler(async (req, res, next) => {
+  const allProducts = await Product.find();
+  res.render('product_list', { allProducts });
+})
