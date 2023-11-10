@@ -26,6 +26,14 @@ a {
   color: #00B7FF;
 }
 
+.homeButton {
+  max-height: 5vh;
+  width: auto;
+  position: absolute;
+  top: 21px;
+  left: 21px;
+}
+
 /* INDEX/LANDING */
 
 .landingContainer {
