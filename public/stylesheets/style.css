@@ -191,3 +191,30 @@ a {
 .categoryItem:hover {
   background-color: var(--hover-highlights);
 }
+
+/* PRODUCT DETAILS */
+
+.productDetailRoot {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.productDetailContainer {
+  border: 3px solid var(--strong-border);
+  border-radius: 5px;
+  box-shadow: 0 0 10px var(--strong-border);
+  padding: 5vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.productDetailHeader {
+  font-size: 5vh;
+}
+
+.productDetailContainer > p {
+  font-size: 3vh;
+}
