@@ -5,6 +5,7 @@
   --faint-border: #436259;
   --strong-border: #87afa6;
   --text-color: #87afa6;
+  --hover-highlights: #1b2925;
 }
 
 * {
@@ -26,6 +27,7 @@ a {
 }
 
 /* INDEX/LANDING STYLING */
+
 .landingContainer {
   display: flex;
   flex-direction: column;
@@ -41,33 +43,46 @@ a {
 
 .tabsContainer {
   border: 2px solid var(--faint-border);
-  min-width: 64vh;
+  border-radius: 5px;
+  min-width: 55vh;
   max-height: 55vh;
   display: flex;
   flex: 1;
   justify-self: center;
   align-self: center;
+  box-shadow: 0 0 10px var(--faint-border);
 }
 
 .tabRight,
 .tabLeft {
-  border: 1px solid var(--strong-border);
+  border: 3px solid var(--strong-border);
+  border-radius: 5px;
   flex-grow: 1;
   margin-top: 1vh;
   margin-bottom: 1vh;
   text-decoration: none;
   color: var(--text-color);
   font-size: 5vh;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(-180deg);
+  white-space: nowrap;
+  padding: 2vh;
+  box-shadow: 0 0 10px var(--strong-border);
 }
 
 .tabLeft {
-  margin-left: 6vw;
+  margin-left: 4vw;
   margin-right:1vw;
 }
 
 .tabRight {
   margin-left: 1vw;
-  margin-right:6vw;
+  margin-right:4vw;
 }
 
+.tabRight:hover,
+.tabLeft:hover {
+  background-color: var(--hover-highlights);
+}
 
