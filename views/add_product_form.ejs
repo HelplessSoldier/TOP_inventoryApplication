@@ -3,32 +3,27 @@
   <%- include('./partials/header.ejs')%>
   <body>
     <%- include("./partials/homeButton.ejs") %>
-
     <div class="addProductRoot">
-
       <h1 class="addProductHeader">ADD PRODUCT</h1>
-
-      <form id="addProductForm">
-
+      <form id="addProductForm" method="POST">
         <input type="text" name="name" placeholder="NAME">
-
         <input type="text" name="description" placeholder="DESCRIPTION">
-
-        <select class="categorySelection">
+        <select class="categorySelection" name="category">
           <%  category_list.forEach(category => { %>
                 <option value=<%- category.name %>> <%= category.name %> </option>
           <%  }); %>
         </select>
-
         <input type="text" name="price" placeholder="PRICE">
-
         <input type="text" name="qty" placeholder="QUANTITY">
-
         <button type="submit">Submit</button>
-
       </form> 
 
-    </div>
+      <div class="addProductErrorsContainer">
+        <% for (const error in errors.errors) { %>
+            <p class="addProductErrorMessages"><%= error.msg %>hi</p>
+        <% } %>
+      </div>
 
+    </div>
   </body>
 </html>

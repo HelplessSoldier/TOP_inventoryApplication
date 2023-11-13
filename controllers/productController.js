@@ -24,8 +24,6 @@ exports.update_qty = asyncHandler(async (req, res, next) => {
   const newQty = req.params.qty;
   const itemId = req.params.id;
 
-  console.log(req.params);
-
   if (newQty >= 0) {
     await Product.findOneAndUpdate({ _id: itemId }, { numInStock: newQty.toString() })
   }
@@ -33,7 +31,53 @@ exports.update_qty = asyncHandler(async (req, res, next) => {
   res.json({ success: true, message: 'Quantity updated successfully' })
 })
 
-exports.add_product_form = asyncHandler(async (req, res, next) => {
+exports.add_product_form_get = asyncHandler(async (req, res, next) => {
   const allCategories = await Category.find();
-  res.render('add_product_form', { category_list: allCategories });
+  res.render('add_product_form', { category_list: allCategories, errors: {} });
 })
+
+/*
+[Object: null prototype] {
+  name: '',
+  description: '',
+  category: 'Operating-System',
+  price: '',
+  qty: ''
+}
+*/
+
+exports.add_product_form_post = [
+  body('name', 'Name must not be empty')
+    .trim()
+    .isLength({ min: 1 })
+    .escape(),
+  body('description', 'Description must not be empty')
+    .trim()
+    .isLength({ min: 1 })
+    .escape(),
+  body('category', 'Category must not be empty')
+    .escape(),
+  body('price', 'Price must not be empty')
+    .isNumeric()
+    .escape(),
+  body('qty', 'Quantity must not be empty')
+    .isNumeric()
+    .escape(),
+
+  asyncHandler(async (req, res, next) => {
+    const allCategories = await Category.find();
+    const errors = validationResult(req);
+    const product = new Product({
+      name: req.body.name,
+      description: req.body.description,
+      category: req.body.category,
+      price: req.body.price,
+      numInStock: req.body.qty,
+    });
+
+    if (!errors.isEmpty()) {
+      console.log(errors);
+      res.render('add_product_form', { category_list: allCategories, errors });
+    }
+  })
+]
