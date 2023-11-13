@@ -223,7 +223,49 @@ a {
   font-size: 5vh;
 }
 
-.productDetailContainer > p {
+.productDetailContainer > p,
+#qtyDisplay {
   font-size: 3vh;
 }
 
+.qtyViewAndControl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.qtyControlButtons > button,
+.qtyControlButtons > input {
+  font-size: 2vh;
+  outline: none;
+  border: 3px solid var(--strong-border);
+  max-width: 5vw;
+  padding: 10px;
+  min-width: 3vw;
+}
+
+.qtyControlButtons > button:hover {
+  background-color: var(--hover-highlights);
+}
+
+#invalidActionWarning {
+  font-size: 2vh;
+  color: #f3e500;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

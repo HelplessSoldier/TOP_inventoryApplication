@@ -24,7 +24,9 @@ exports.update_qty = asyncHandler(async (req, res, next) => {
   const newQty = req.params.qty;
   const itemId = req.params.id;
 
-  if (newQty && newQty >= 0) {
+  console.log(req.params);
+
+  if (newQty >= 0) {
     await Product.findOneAndUpdate({ _id: itemId }, { numInStock: newQty.toString() })
   }
 

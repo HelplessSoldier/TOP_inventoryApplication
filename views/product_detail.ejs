@@ -12,13 +12,13 @@
         <div class="qtyViewAndControl">
           <p id="qtyDisplay">QTY: <%- item.numInStock %></p>
           <div class="qtyControlButtons">
-            <button onclick="updateQty('up')">qty up</button>
-            <button onclick="updateQty('down')">qty down</button>
-            <input type="number" name="setQty" id="setQty">
+            <button onclick="updateQty('up')">+1</button>
+            <button onclick="updateQty('down')">-1</button>
+            <input type="number" name="setQty" id="setQty" placeholder="QTY">
             <button onclick="updateQty('set')">Set Qty</button>
           </div>
-          <p id="invalidActionWarning">Invalid Action, Probably trying to set Qty below zero</p>
         </div>
+        <p id="invalidActionWarning">Invalid Action, Probably trying to set Qty below zero</p>
       </div>
     </div>
     <script>
@@ -46,7 +46,7 @@
           warning.style.display = 'block';
         }
 
-        if (newQty) {
+        if (newQty >= 0) {
           fetch(`/stock/updateQty/${itemId}/${newQty}`, {
             method: 'POST',
             headers: {
