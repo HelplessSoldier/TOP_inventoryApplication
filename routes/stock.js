@@ -12,5 +12,7 @@ router.get('/products', product_controller.product_list)
 
 router.get('/product/:id', product_controller.product_detail);
 
+router.post('/updateQty/:id/:qty', product_controller.update_qty);
+
 
 module.exports = router;
