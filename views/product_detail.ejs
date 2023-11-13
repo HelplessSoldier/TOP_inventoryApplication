@@ -9,8 +9,58 @@
         <p>DESCRIPTION: <%- item.description %></p>
         <p>CATEGORY: <%- item.category %></p>
         <p>PRICE: <%- item.price %>§</p>
-        <p>QTY: <%- item.numInStock %></p>
+        <div class="qtyViewAndControl">
+          <p id="qtyDisplay">QTY: <%- item.numInStock %></p>
+          <div class="qtyControlButtons">
+            <button onclick="updateQty('up')">qty up</button>
+            <button onclick="updateQty('down')">qty down</button>
+            <input type="number" name="setQty" id="setQty">
+            <button onclick="updateQty('set')">Set Qty</button>
+          </div>
+          <p id="invalidActionWarning">Invalid Action, Probably trying to set Qty below zero</p>
+        </div>
       </div>
     </div>
+    <script>
+      const warning = document.getElementById('invalidActionWarning');
+      warning.style.display = 'none';
+
+      function updateQty(action) {
+        const setQtyInput = document.getElementById('setQty');
+        const qtyDisplay = document.getElementById('qtyDisplay');
+        const itemId = `<%- item._id %>`;
+
+        const currentQty = parseInt(qtyDisplay.textContent.split(' ')[1]);
+        let newQty;
+
+        if (currentQty > 0 && action === 'down') {
+          newQty = currentQty - 1;
+          warning.style.display = 'none';
+        } else if (action === 'up') {
+          newQty = currentQty + 1;
+          warning.style.display = 'none';
+        } else if (action === 'set' && setQtyInput.value >= 0) {
+          newQty = parseInt(setQtyInput.value);
+          warning.style.display = 'none';
+        } else {
+          warning.style.display = 'block';
+        }
+
+        if (newQty) {
+          fetch(`/updateQty/${itemId}`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ newQty }),
+          })
+            .then(response => response.json())
+            .then(data => {
+              console.log(data);
+            })
+            .catch(err => console.error(err));
+        }
+      }
+    </script>
   </body>
 </html>
