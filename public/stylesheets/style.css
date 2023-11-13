@@ -62,7 +62,8 @@ a {
 }
 
 .tabRight,
-.tabLeft {
+.tabLeft,
+.tabMiddle {
   border: 3px solid var(--strong-border);
   border-radius: 5px;
   flex-grow: 1;
@@ -90,7 +91,8 @@ a {
 }
 
 .tabRight:hover,
-.tabLeft:hover {
+.tabLeft:hover,
+.tabMiddle:hover {
   background-color: var(--hover-highlights);
 }
 
@@ -246,6 +248,7 @@ a {
 
 .qtyControlButtons > button:hover {
   background-color: var(--hover-highlights);
+  cursor: pointer;
 }
 
 #invalidActionWarning {
@@ -254,7 +257,7 @@ a {
 }
 
 input[type='number'] {
-  -moz-appearance: textfield; /* Firefox */
+  -moz-appearance: textfield;
 }
 
 input[type='number']::-webkit-inner-spin-button,
@@ -263,9 +266,40 @@ input[type='number']::-webkit-outer-spin-button {
   margin: 0;
 }
 
-/* For Firefox */
 input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+/* ADD PRODUCT FORM */
+
+.addProductRoot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+#addProductForm {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid var(--strong-border);
+  border-radius: 5px;
+  box-shadow: 0 0 10px var(--strong-border);
+  padding: 3vh;
+  gap: 1vh;
+}
+
+#addProductForm > input,
+#addProductForm > button,
+#addProductForm > select {
+  font-size: 2vh;
+  outline: none;
+  border: 3px solid var(--strong-border);
+  padding: 10px;
+  min-width: 3vw;
+}
+

@@ -32,3 +32,8 @@ exports.update_qty = asyncHandler(async (req, res, next) => {
 
   res.json({ success: true, message: 'Quantity updated successfully' })
 })
+
+exports.add_product_form = asyncHandler(async (req, res, next) => {
+  const allCategories = await Category.find();
+  res.render('add_product_form', { category_list: allCategories });
+})
