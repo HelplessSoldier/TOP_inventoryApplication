@@ -638,7 +638,7 @@
   },
   {
     "name": "ProxiSheild",
-    "description": "Damage taken is inversly proportional to how close the user is to an attacking enemy",
+    "description": "Damage taken is inversely proportional to how close the user is to an attacking enemy",
     "category": "Integumentary-System",
     "price": "4500",
     "numInStock": "17"
