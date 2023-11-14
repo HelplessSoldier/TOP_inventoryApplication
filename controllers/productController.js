@@ -33,34 +33,24 @@ exports.update_qty = asyncHandler(async (req, res, next) => {
 
 exports.add_product_form_get = asyncHandler(async (req, res, next) => {
   const allCategories = await Category.find();
-  res.render('add_product_form', { category_list: allCategories, errors: {} });
+  res.render('add_product_form', { category_list: allCategories, errors: { errors: [] } });
 })
 
-/*
-[Object: null prototype] {
-  name: '',
-  description: '',
-  category: 'Operating-System',
-  price: '',
-  qty: ''
-}
-*/
-
 exports.add_product_form_post = [
-  body('name', 'Name must not be empty')
+  body('name', 'Invalid Name')
     .trim()
     .isLength({ min: 1 })
     .escape(),
-  body('description', 'Description must not be empty')
+  body('description', 'Invalid Description')
     .trim()
     .isLength({ min: 1 })
     .escape(),
-  body('category', 'Category must not be empty')
+  body('category', 'Invalid Category')
     .escape(),
-  body('price', 'Price must not be empty')
+  body('price', 'Invalid Price')
     .isNumeric()
     .escape(),
-  body('qty', 'Quantity must not be empty')
+  body('qty', 'Invalid Quantity')
     .isNumeric()
     .escape(),
 

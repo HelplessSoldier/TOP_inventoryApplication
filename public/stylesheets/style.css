@@ -306,3 +306,13 @@ input[type='number']::-webkit-outer-spin-button {
 #addProductForm > button:hover {
   background-color: var(--hover-highlights);
 }
+
+.addProductErrorsContainer {
+  margin-top: 34px;
+}
+
+.addProductErrorMessages {
+  font-size: 2vh;
+  color: #f3e500;
+  margin: 10px;
+}

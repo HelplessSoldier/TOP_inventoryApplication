@@ -19,9 +19,9 @@
       </form> 
 
       <div class="addProductErrorsContainer">
-        <% for (const error in errors.errors) { %>
-            <p class="addProductErrorMessages"><%= error.msg %>hi</p>
-        <% } %>
+        <% errors.errors.forEach(error => { %>
+            <p class="addProductErrorMessages"><%= error.msg %></p>
+        <% }) %>
       </div>
 
     </div>
