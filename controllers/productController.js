@@ -2,6 +2,7 @@ const Category = require('../models/category');
 const Product = require('../models/product');
 const asyncHandler = require('express-async-handler');
 const { body, validationResult } = require('express-validator');
+const mongoose = require('mongoose');
 
 exports.products_in_category = asyncHandler(async (req, res, next) => {
   const categoryName = req.params.name;
@@ -95,13 +96,76 @@ exports.add_product_form_post = [
   })
 ]
 
-exports.edit_product = asyncHandler(async (req, res, next) => {
+exports.edit_product_get = asyncHandler(async (req, res, next) => {
   const item = await Product.findById(req.params.id);
   const allCategories = await Category.find();
-  console.log(item);
   res.render('edit_product_form', {
     item,
     category_list: allCategories,
     errors: { errors: [] },
   });
 })
+
+exports.edit_product_post = [
+  body('name', 'Invalid Name')
+    .trim()
+    .isLength({ min: 1 })
+    .escape(),
+  body('description', 'Invalid Description')
+    .trim()
+    .isLength({ min: 1 })
+    .escape(),
+  body('category', 'Invalid Category')
+    .escape(),
+  body('price', 'Invalid Price')
+    .isNumeric()
+    .escape(),
+  body('qty', 'Invalid Quantity')
+    .isNumeric()
+    .escape(),
+
+  asyncHandler(async (req, res, next) => {
+    const item = await Product.findById(req.params.id);
+    const allCategories = await Category.find();
+    const errors = validationResult(req);
+    console.log(item);
+
+    if (!errors.isEmpty()) {
+      res.render('edit_product_form', {
+        category_list: allCategories,
+        errors,
+        item: {
+          name: req.body.name,
+          description: req.body.description,
+          category: req.body.category,
+          price: req.body.price,
+          numInStock: req.body.qty
+        }
+      });
+    } else {
+      const filter = { _id: req.params.id };
+      const update = {
+        name: req.body.name,
+        description: req.body.description,
+        category: req.body.category,
+        price: req.body.price,
+        numInStock: req.body.qty,
+      };
+      try {
+        const updatedProduct = await Product.findOneAndUpdate(filter, update, { new: true });
+        if (!updatedProduct) {
+          return res.status(404).send('Product not found');
+        }
+        res.redirect(updatedProduct.url);
+      } catch (err) {
+        console.error(err);
+        res.status(500).send('Internal Server Error')
+      }
+    }
+  })
+];
+
+
+
+
+
