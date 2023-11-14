@@ -68,6 +68,9 @@ exports.add_product_form_post = [
     if (!errors.isEmpty()) {
       console.log(errors);
       res.render('add_product_form', { category_list: allCategories, errors });
+    } else {
+      await product.save();
+      res.redirect(product.url);
     }
   })
 ]
