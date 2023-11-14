@@ -246,6 +246,10 @@ a {
   min-width: 3vw;
 }
 
+.qtyControlButtons {
+  margin-left: 55px;
+}
+
 .qtyControlButtons > button:hover {
   background-color: var(--hover-highlights);
   cursor: pointer;

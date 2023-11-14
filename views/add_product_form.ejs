@@ -6,15 +6,15 @@
     <div class="addProductRoot">
       <h1 class="addProductHeader">ADD PRODUCT</h1>
       <form id="addProductForm" method="POST">
-        <input type="text" name="name" placeholder="NAME">
-        <input type="text" name="description" placeholder="DESCRIPTION">
-        <select class="categorySelection" name="category">
+        <input type="text" name="name" placeholder="NAME" value="<%= inputValues.name %>">
+        <input type="text" name="description" placeholder="DESCRIPTION" value="<%= inputValues.description %>">
+        <select class="categorySelection" name="category" value="<%= inputValues.category %>">
           <%  category_list.forEach(category => { %>
-                <option value=<%- category.name %>> <%= category.name %> </option>
+                <option value="<%- category.name %>" <% if (category.name === inputValues.category) { %>selected<% } %>><%= category.name %></option>
           <%  }); %>
         </select>
-        <input type="text" name="price" placeholder="PRICE">
-        <input type="text" name="qty" placeholder="QUANTITY">
+        <input type="text" name="price" placeholder="PRICE" value="<%= inputValues.price %>">
+        <input type="text" name="qty" placeholder="QUANTITY" value="<%= inputValues.qty %>">
         <button type="submit">Submit</button>
       </form> 
 

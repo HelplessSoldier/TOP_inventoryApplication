@@ -33,7 +33,17 @@ exports.update_qty = asyncHandler(async (req, res, next) => {
 
 exports.add_product_form_get = asyncHandler(async (req, res, next) => {
   const allCategories = await Category.find();
-  res.render('add_product_form', { category_list: allCategories, errors: { errors: [] } });
+  res.render('add_product_form', {
+    category_list: allCategories,
+    errors: { errors: [] },
+    inputValues: {
+      name: "",
+      description: "",
+      category: "Arms",
+      price: "",
+      qty: ""
+    }
+  });
 })
 
 exports.add_product_form_post = [
@@ -67,7 +77,17 @@ exports.add_product_form_post = [
 
     if (!errors.isEmpty()) {
       console.log(errors);
-      res.render('add_product_form', { category_list: allCategories, errors });
+      res.render('add_product_form', {
+        category_list: allCategories,
+        errors,
+        inputValues: {
+          name: req.body.name,
+          description: req.body.description,
+          category: req.body.category,
+          price: req.body.price,
+          qty: req.body.qty
+        }
+      });
     } else {
       await product.save();
       res.redirect(product.url);
