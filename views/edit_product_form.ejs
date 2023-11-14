@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./partials/header.ejs')%>
+  <body>
+    <%- include("./partials/homeButton.ejs") %>
+    <div class="addProductRoot">
+      <h1 class="addProductHeader">EDIT PRODUCT</h1>
+      <form id="addProductForm" method="POST">
+        <input type="text" name="name" placeholder="NAME" value="<%= item.name %>">
+        <input type="text" name="description" placeholder="DESCRIPTION" value="<%= item.description %>">
+        <select class="categorySelection" name="category" value="<%= item.category %>">
+          <%  category_list.forEach(category => { %>
+                <option value="<%- category.name %>" <% if (category.name === item.category) { %>selected<% } %>><%= category.name %></option>
+          <%  }); %>
+        </select>
+        <input type="text" name="price" placeholder="PRICE" value="<%= item.price %>">
+        <input type="text" name="qty" placeholder="QUANTITY" value="<%= item.numInStock %>">
+        <button type="submit">Submit</button>
+      </form> 
+
+      <div class="addProductErrorsContainer">
+        <% errors.errors.forEach(error => { %>
+            <p class="addProductErrorMessages"><%= error.msg %></p>
+        <% }) %>
+      </div>
+
+    </div>
+  </body>
+</html>

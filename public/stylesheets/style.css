@@ -237,7 +237,8 @@ a {
 }
 
 .qtyControlButtons > button,
-.qtyControlButtons > input {
+.qtyControlButtons > input,
+.qtyControlButtons > a > button {
   font-size: 2vh;
   outline: none;
   border: 3px solid var(--strong-border);

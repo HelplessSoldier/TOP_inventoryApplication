@@ -94,3 +94,14 @@ exports.add_product_form_post = [
     }
   })
 ]
+
+exports.edit_product = asyncHandler(async (req, res, next) => {
+  const item = await Product.findById(req.params.id);
+  const allCategories = await Category.find();
+  console.log(item);
+  res.render('edit_product_form', {
+    item,
+    category_list: allCategories,
+    errors: { errors: [] },
+  });
+})

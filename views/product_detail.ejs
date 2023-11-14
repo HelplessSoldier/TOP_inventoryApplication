@@ -16,6 +16,9 @@
             <button onclick="updateQty('down')">-1</button>
             <input type="number" name="setQty" id="setQty" placeholder="QTY">
             <button onclick="updateQty('set')">Set Qty</button>
+            <a href="/stock/product/edit/<%= item._id %>">
+              <button>Edit</button>
+            </a>
           </div>
         </div>
         <p id="invalidActionWarning">Invalid Action, Probably trying to set Qty below zero</p>
@@ -29,7 +32,6 @@
         const setQtyInput = document.getElementById('setQty');
         const qtyDisplay = document.getElementById('qtyDisplay');
         const itemId = `<%- item._id %>`;
-
         const currentQty = parseInt(qtyDisplay.textContent.split(' ')[1]);
         let newQty;
 
@@ -63,7 +65,7 @@
             })
             .catch(err => console.error(err));
         }
-      }
+      };
     </script>
   </body>
 </html>
