@@ -76,6 +76,7 @@ a {
   text-orientation: mixed;
   transform: rotate(-180deg);
   white-space: nowrap;
+  min-width: 144px;
   padding: 2vh;
   box-shadow: 0 0 10px var(--strong-border);
 }
